@@ -50,7 +50,7 @@
           <blockquote class="tagline">“We don't follow the narrative. We follow the facts.”</blockquote>
         </section>
 
-        <section id="news">
+        <section id="breaking-news">
           <h2>Breaking News</h2>
 
           <h3>Federal Investigation Launched into Water Mismanagement in the Southwest</h3>
@@ -66,7 +66,7 @@
             </video>
         </section>
 
-        <section id="featured">
+        <section id="featured-aticles">
           <h2>Featured Articles</h2>
             
           <h3>The Cost of Silence: Whistleblower Stories from Inside Tech Giants</h3>
@@ -106,29 +106,59 @@
           <p>Rebuilding trust and infrastructure in disaster-hit communities.</p>
         </section> 
         
-        <section id="informed-form">
+        <form id="alerts" action="https://wp.zybooks.com/form-viewer.php" method="post">
           <h2>Stay Informed. Stay Empowered.</h2>
           <p>Receive text messages with the news you want to know.</p>
           
-          Name
+          <label for="full-name">Name
+            <input name="full-name" type="text" content="full-name">
+          </label>
           
-          Mobile
+          <label for="mobile">Mobile
+            <input name="mobile" type="tel" content="mobile">
+          </label>
           
-          Notification Preferences
+          <fieldset>
+            <legend>Notification Preferences</legend>
+            
+            <label for="news">Breaking News
+              <input name="news" type="checkbox" content="news">
+            </label>
+            
+            <label for="politics">Politics
+              <input name="politics" type="checkbox" content="politics">
+            </label>
+
+            <label for="weather">Weather
+              <input name="weather" type="checkbox" content="weather">
+            </label>
+            
+            <label for="sports">Sports
+              <input name="sports" type="checkbox" content="sports">
+            </label>
+            
+            <label for="entertainment">Entertainment
+              <input name="entertainment" type="checkbox" content="entertainment">
+            </label>
+            
+            <label for="world">World
+              <input name="world" type="checkbox" content="world">
+            </label>
+            
+            <label for="financial">Financial
+              <input name="financial" type="checkbox" content="financial">
+            </label>
+          </fieldset>
           
-          Breaking News
-          Politics
-          Weather
-          Sports
-          Entertainment
-          World
-          Financial
-          
-          Subscribe
-        </section>
+          <label for="subscribe">Subscribe
+            <input name="subscribe" type="checkbox" content="subscribe">
+          </label>
+
+          <input type="submit" name="submit" >
+        </form>
       </main>
 
-      <footer>
+      <footer id="social">
         <h2>Follow Us</h2>
         <p>Twitter/X<br>
         Instagram<br>
