@@ -1,10 +1,57 @@
-/* CSS by ///ADD/// YOUR NAME */
+/* CSS by ///ADD/// Olivia Parker */
 
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87..112,300..900;1,18..144,87..112,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /* ///ADD/// CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 /* Root Variables */
 :root {
@@ -39,9 +86,87 @@ body.dark-mode {
 }
 
 /* ///ADD/// Skip Link Styles */
+.skip-link {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 30%;
+  transform: translateY(-77%);
+  background: var(--blue-bulletin);
+  padding: .65rem;
+  text-decoration: none;
+}
 
+.skip-link:focus, .skip-link:hover {
+  transform: translateY(-0%);
+  color: white;
+  text-decoration: none;
+}
 /* ///ADD/// Navigation Styles */
+header {
+ background: var(--blue-bulletin);
+ min-height: 10rem;
+ padding-top: .5rem;
+}
 
+header h1 {
+  font-size: 30pt;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-style: var(--font-heading);
+  color: white;
+}
+
+header p{
+  font-style: var(--font-body);
+  margin: .5rem 0 1rem 1.5rem;
+  color: white;
+}
+
+.menu-button {
+  text-decoration: none;
+  padding: 1rem;
+  background: var(--news-flash);
+  display: block;
+  text-align: center;
+  margin: 0 1.5rem .0rem 1.5rem;
+  color: white;
+  font-style: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.menu {
+visibility: hidden;
+transform: translateY(-5px);
+margin-bottom: 1rem;
+padding-bottom: 20px;
+max-height: 0;
+}
+
+.mobile-nav:hover .menu {
+  visibility: visible;
+  transform: translateY(0);
+  max-height: 300px;
+}
+
+.menu a{
+  text-decoration: none;
+  background: var(--news-flash);
+  color: white;
+  padding: 1rem;
+  font-style: var(--font-heading);
+  text-transform: uppercase;
+  display: block;
+  margin: 0 1.51rem;
+  }
+
+  .menu li{
+    text-align: center;
+  }
+
+  .menu a:hover {
+    background:#9d212c;
+  }
 /* ///ADD/// Global Layout Styles */
 
 /* ///ADD/// Global Text Styles */
