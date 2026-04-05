@@ -307,6 +307,45 @@ input {
     font-size: 14pt;
     text-transform: uppercase;
   }
+
+  footer {
+    background: var(--blue-bulletin);
+    padding-top: 2.5rem;
+    height: 100%;
+  }
+
+  footer h2 {
+    font-size: 20pt;
+    font-style: var(--font-heading);
+    margin-left: 2rem;
+    color: white;
+  }
+
+  #social-sections {
+    background: var(--blue-bulletin);
+    padding: 0 10rem 2.5rem 2rem;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 7rem 0 0;
+  }
+
+  #social-media {
+    color: white;
+    background: var(--news-flash);
+    margin: .25rem;
+    padding: .5rem;
+    font-size: 12pt;
+    text-align: center;
+  }
+
+  #copyright {
+    color: white; 
+    text-align: center;
+    font-size: 12pt;
+    padding-bottom: 1.5rem;
+  }
+
+
   
 /* ///ADD/// medium styles 620px */
 
