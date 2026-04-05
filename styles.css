@@ -207,7 +207,6 @@ p {
   font-style: var(--font-body);
   margin-left: 2.5rem;
   font-size: 11pt;
-  font-weight: light;
   line-height: 1.5rem;
   margin-right: 2.5rem;
 }
@@ -254,9 +253,61 @@ blockquote {
 #alerts {
   background: var(--news-flash);
   border: 2px solid var(--blue-bulletin);
-  padding: 2rem 0;
-  margin: 0 3rem;
+  padding: 1rem 0;
+  margin: 0 3rem 2rem 3rem;
 }
+
+#alerts label {
+  margin-left: .5rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+input {
+  width: 93%;
+  height: 2rem;
+  margin-left: .55rem;
+  margin-bottom: 1rem;
+}
+
+#form-label label {
+  margin-left: 2.5rem;
+  line-height: 3rem;
+  margin-right: 13rem;
+  color: white;
+  font-style: var(--font-body)
+  }
+
+  #form-label input{
+    position: absolute;
+    left: 4.5rem;
+    width: 4%;
+    height: 4.5%;
+    padding-bottom: 17rem;
+  }
+
+  fieldset {
+    border: 2px solid var(--blue-bulletin);
+    margin: 0 1rem;
+  }
+  legend {
+    margin-left: .5rem;
+    color: white;
+    text-transform: uppercase;
+    font-style: var(--font-heading);
+  }
+
+  #subscribe {
+    margin-top: .5rem;
+    background: var(--blue-bulletin);
+    color: white;
+    height: 3rem;
+    width: 92%;
+    margin-left: 1rem;
+    font-size: 14pt;
+    text-transform: uppercase;
+  }
+  
 /* ///ADD/// medium styles 620px */
 
 
