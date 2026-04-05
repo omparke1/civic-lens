@@ -191,7 +191,7 @@ main h3{
   background: var(--news-flash);
   padding: 1rem;
   margin-bottom: .5rem;
-  border-color: 2rem solid black;
+  border: 1.5px solid black;
   margin: 0 3rem .5rem 3rem;
 }
 
@@ -200,6 +200,7 @@ main h3{
   margin-left: .15rem;
   color: white;
   line-height: 2rem;
+  font-size: 18pt;
 }
 
 p {
@@ -225,7 +226,37 @@ blockquote {
   margin-top: 1.5rem;
   margin-left: 3.5rem;
 }
+#featured-articles h2{
+  margin-left:-.5rem;
+}
 
+#featured-articles {
+  margin: 0 3rem;
+}
+
+#featured-articles h3 {
+  font-size: 18pt;
+  margin-bottom: .25rem;
+}
+
+#featured-articles p {
+  border-top: .08em solid var(--blue-bulletin);
+  margin: 0;
+  padding-top: .5rem;
+}
+
+.feature {
+  border: 1.5px solid var(--blue-bulletin);
+  padding: 1.5rem;
+  margin: .5rem 0rem;
+}
+
+#alerts {
+  background: var(--news-flash);
+  border: 2px solid var(--blue-bulletin);
+  padding: 2rem 0;
+  margin: 0 3rem;
+}
 /* ///ADD/// medium styles 620px */
 
 
