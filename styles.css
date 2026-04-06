@@ -195,6 +195,11 @@ main h3{
   margin: 0 3rem .5rem 3rem;
 }
 
+#news-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 #breaking-news h3 {
   margin-top: .75rem;
   margin-left: .15rem;
@@ -222,8 +227,9 @@ blockquote {
   font-style: var(--font-heading);
   font-size: 13pt;
   font-weight: bold;
-  margin-top: 1.5rem;
-  margin-left: 3.5rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1rem;
 }
 #featured-articles h2{
   margin-left:-.5rem;
@@ -332,7 +338,7 @@ input {
     margin: 0 7rem 0 0;
   }
 
-  #social-media {
+  .social-media {
     color: white;
     background: var(--news-flash);
     margin: .25rem;
@@ -375,6 +381,38 @@ input {
 .menu a {
   width: 80%;
 }
+
+#news-container {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: start;
+  padding-right: 4.5rem;
+}
+
+.news-box{ 
+  width: 85%;
+  height: 90%;
+}
+
+.news-box h3 {
+  margin: 0;
+  width: 100%;
+  min-height: 3rem;
+}
+
+#feature-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.feature {
+  margin: 0;
+}
+
+
+
+
 
 /* ///ADD/// large styles 920px */
 
