@@ -410,7 +410,24 @@ input {
   margin: 0;
 }
 
+#form-label {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5rem 1rem;
+}
 
+#form-label label{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+#form-label input{
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
 
 
 
