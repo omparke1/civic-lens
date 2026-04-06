@@ -276,23 +276,26 @@ input {
   margin-bottom: 1rem;
 }
 #form-label {
+  display: grid;
   grid-template-columns: 1fr;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
 }
 
 #form-label label {
-  margin-left: 2.5rem;
-  line-height: 3rem;
-  margin-right: 13rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  line-height: 1rem;
   color: white;
-  font-style: var(--font-body)
+  font-style: var(--font-body);
   }
 
   #form-label input{
-    position: absolute;
-    left: 4.5rem;
-    width: 4%;
-    height: 4.5%;
-    padding-bottom: 17rem;
+    width: auto;
+  height: auto;
+  margin: 0;
   }
 
   fieldset {
@@ -410,23 +413,21 @@ input {
   margin: 0;
 }
 
+
 #form-label {
-  display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: .5rem 1rem;
+  margin-left: 1rem;
 }
 
-#form-label label{
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-}
-
-#form-label input{
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
+.social-sections {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    gap: 1rem;
+    width: 80%;
+    margin: 1rem -1.5rem;
+    justify-content: end;
+  }
 }
 
 
