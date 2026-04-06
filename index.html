@@ -145,14 +145,20 @@
           
         <form id="alerts" action="https://wp.zybooks.com/form-viewer.php" method="post">
           
-          <label for="full-name">Name
-            <input name="full-name" type="text" id="full-name">
-          </label>
+          <div id="name-container">
+            <div class="name-item">
+              <label for="full-name">Name
+                <input name="full-name" type="text" id="full-name">
+              </label>
+            </div>
           
-          <label for="mobile">Mobile
-            <input name="mobile" type="tel" id="mobile">
-          </label>
-          
+          <div class="name-item">
+            <label for="mobile">Mobile
+              <input name="mobile" type="tel" id="mobile">
+            </label>
+           </div>
+         </div>
+
           <fieldset>
             <legend>Notification Preferences</legend>
             

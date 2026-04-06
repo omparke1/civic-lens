@@ -302,6 +302,7 @@ input {
     border: 2px solid var(--blue-bulletin);
     margin: 0 1rem;
   }
+
   legend {
     margin-left: .5rem;
     color: white;
@@ -413,10 +414,18 @@ input {
   margin: 0;
 }
 
+fieldset {
+  margin: 0 1.5rem 0 .75rem;
+}
 
 #form-label {
   grid-template-columns: 1fr 1fr;
   margin-left: 1rem;
+}
+
+#subscribe {
+width: 95%;
+margin-left: .75rem;
 }
 
 .social-sections {
@@ -425,15 +434,40 @@ input {
     grid-auto-columns: auto;
     gap: 1rem;
     width: 80%;
-    margin: 1rem -1.5rem;
-    justify-content: end;
+    margin: 1rem 1.75rem;
+    justify-content: start;
   }
 }
 
-
-
 /* ///ADD/// large styles 920px */
+@media screen and (min-width: 920px){
 
+  #feature-container{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #name-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .name-item label {
+    margin: 0;
+  }
+
+  .name-item input {
+    width: 94%;
+  }
+
+  #form-label {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #form-label input{
+    width: auto;
+  }
+}
 
 /* ///ADD/// x-large styles 1024px */
 
