@@ -470,6 +470,8 @@ margin-left: .75rem;
 }
 
 /* ///ADD/// x-large styles 1024px */
+@media screen and (min-width: 1024px){
+}
 
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
